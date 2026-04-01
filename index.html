@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retro Game Vault</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Retro Game Vault</h1>
+            <div class="controls">
+                <div class="search-box">
+                    <input type="text" id="searchInput" placeholder="Search games...">
+                </div>
+                <div class="filter-sort-box">
+                    <select id="sortSelect">
+                        <option value="none">Sort By</option>
+                        <option value="rating-desc">Rating: High to Low</option>
+                        <option value="rating-asc">Rating: Low to High</option>
+                        <option value="released-desc">Newest First</option>
+                        <option value="released-asc">Oldest First</option>
+                    </select>
+                    <div class="rating-filter">
+                        <label for="ratingThreshold">Rating > </label>
+                        <input type="number" id="ratingThreshold" min="0" max="5" step="0.5" placeholder="0">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div id="loading" class="status-message">Loading...</div>
+        <div id="error" class="status-message hidden">Something went wrong. Please try again later.</div>
+        <div id="gameGrid" class="game-grid"></div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
