@@ -1,34 +1,44 @@
-# Retro Game Vault
+# Retro Game Vault 🎮
 
-## Description
-Retro Game Vault is a web application where users can explore and discover retro video games. The app fetches data from a public API and displays it on the webpage. Users can search for games and view basic details like name, rating, and release date.
+## 📝 Description
+Retro Game Vault is a beginner-friendly web application where users can discover and organize retro video games. It connects to a public game database to display popular titles, allowing users to search, filter, sort, and save their favorite games locally.
 
-## API Used
-RAWG Video Games API
+## ✨ Features Implemented
+- **Search:** Find games quickly by their title.
+- **Filter:** View games by category (Action, Adventure, RPG, Shooter, Puzzle).
+- **Sort:** Order games by Highest/Lowest Rating or Alphabetically (A-Z, Z-A).
+- **Favorites System:** "Like" games to save them (uses LocalStorage so they don't disappear on refresh).
+- **Dark Mode Toggle:** Switch between a light and dark theme.
+- **Responsive Design:** Works perfectly on desktop and mobile devices.
 
-## Features
-- Search games by name  
-- Filter games based on rating or category  
-- Sort games by rating or release date  
-- View game details  
-- Responsive design for different screen sizes  
+## 🔌 API Used
+[RAWG Video Games API](https://rawg.io/apidocs)
 
-## Technologies Used
-- HTML  
-- CSS  
-- JavaScript  
-- Fetch API  
+## 🛠 Tech Stack
+- **HTML5:** For the structure and layout.
+- **CSS3:** For styling, Flexbox, CSS Grid, and custom Dark Mode.
+- **JavaScript (Vanilla):** For logic, DOM manipulation, fetching API data, and using array methods like `map`, `filter`, `find`, `sort`, and `reduce`.
 
-## Project Structure
-- index.html  
-- style.css  
-- script.js  
-- README.md  
+## 🚀 How to Run Locally
 
-## How to Run
-1. Download or clone the project  
-2. Open the folder  
-3. Open index.html in a browser  
+1. **Download the project** folder to your computer.
+2. **Open the folder** to see the `index.html`, `style.css`, and `script.js` files.
+3. **Double-click `index.html`** to open it in your default web browser. That's it!
 
-## Notes
-This project is created as part of a college assignment to understand API integration, JavaScript concepts, and UI development.
+*(Alternatively, you can open the folder in an editor like VS Code and use the "Live Server" extension).*
+
+## 🌐 Deployment Link
+[Insert Your Netlify/Vercel Deployment Link Here]
+
+## 📸 Screenshots
+*(Replace the placeholder text below with actual screenshots of your project)*
+
+- `[Screenshot 1 - Main Page Light Mode]`
+- `[Screenshot 2 - Main Page Dark Mode]`
+- `[Screenshot 3 - Filtering and Searching]`
+
+---
+
+<div align="center">
+  <h3>Crafted by Vinayak Giregol ❤️</h3>
+</div>

@@ -270,6 +270,59 @@ body.dark-mode .game-card:hover {
     100% { transform: rotate(360deg); } 
 }
 
+/* Footer Styles */
+footer {
+    background: var(--header-bg);
+    border-top: 1px solid var(--border-color);
+    margin-top: 3rem;
+    padding: 1.5rem 0;
+    text-align: center;
+    transition: background-color var(--transition-speed), border-color var(--transition-speed);
+}
+
+.footer-content {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.footer-content p {
+    color: var(--text-secondary);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* Stylish Signature */
+.signature p {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.heart {
+    display: inline-block;
+    color: #ef4444;
+    animation: heartbeat 1.5s infinite;
+}
+
+@keyframes heartbeat {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+}
+
+.name-glow {
+    background: linear-gradient(to right, var(--accent-primary), var(--accent-secondary));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: text-shadow 0.3s ease;
+    cursor: default;
+}
+
+.name-glow:hover {
+    text-shadow: 0 0 10px var(--accent-primary), 0 0 20px var(--accent-secondary);
+}
+
 @media (max-width: 768px) {
     .container { 
         padding: 1rem; 

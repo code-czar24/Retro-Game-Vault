@@ -187,6 +187,10 @@ sortSelect.addEventListener('change', updateUI);
 genreSelect.addEventListener('change', updateUI);
 themeToggle.addEventListener('click', toggleTheme);
 
+// Set Footer Year
+const yearSpan = document.getElementById('year');
+if (yearSpan) yearSpan.textContent = new Date().getFullYear();
+
 // Boot App
 initTheme();
 fetchGames();
