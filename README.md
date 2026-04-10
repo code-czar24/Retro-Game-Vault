@@ -28,14 +28,7 @@ Retro Game Vault is a beginner-friendly web application where users can discover
 *(Alternatively, you can open the folder in an editor like VS Code and use the "Live Server" extension).*
 
 ## 🌐 Deployment Link
-[Insert Your Netlify/Vercel Deployment Link Here]
-
-## 📸 Screenshots
-*(Replace the placeholder text below with actual screenshots of your project)*
-
-- `[Screenshot 1 - Main Page Light Mode]`
-- `[Screenshot 2 - Main Page Dark Mode]`
-- `[Screenshot 3 - Filtering and Searching]`
+https://vinayak-retro-game-vault.vercel.app/
 
 ---
 
